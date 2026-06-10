@@ -1,0 +1,49 @@
+# ============ IDE ============
+.idea/
+.vscode/
+
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.coverage*
+coverage.xml
+htmlcov/
+venv/
+env/
+env3.*
+.venv/
+*.db
+
+# ============ 环境变量 ============
+.env
+.env.*
+!.env.example
+
+# ============ Node / 前端 ============
+node_modules/
+ai-interview-admin/dist/
+ai-interview-frontend/dist/
+
+# ============ Docker 二进制 ============
+docker-compose-linux-*
+
+# ============ 运行时 ============
+logs/
+*.log
+celerybeat-schedule*
+uploads/
+
+# ============ 操作系统 ============
+.DS_Store
+Thumbs.db
+
+# ============ 其他 ============
+Pipfile.lock
+poetry.lock
+migrations/versions/*.pyc
